@@ -1,0 +1,35 @@
+.background {
+  display: flex;
+  justify-content: flex-end;
+  height: 256px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 16px;
+  padding-right: 16px;
+}
+
+.info {
+  background-color: #fff;
+}
+
+.infoContainer {
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatarContainer {
+  background-color: #fff;
+  margin-top: -128px;
+  padding: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.userDataContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}

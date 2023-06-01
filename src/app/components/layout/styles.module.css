@@ -1,0 +1,47 @@
+.contentWrapper {
+  height: 100vh;
+  overflow: auto;
+  scrollbar-color: #d1d5dc #fff;
+  scrollbar-width: thin;
+  background-color: #f1f1f1;
+}
+
+.siderContainer {
+  height: 100vh;
+  overflow: auto;
+}
+
+.contentContainer {
+  padding: 24px 48px;
+}
+
+.contentWrapper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.contentWrapper::-webkit-scrollbar-thumb {
+  background: #2d3e4f;
+}
+
+.contentWrapper::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.contentWrapper::-webkit-scrollbar-thumb:hover {
+  background: #6185a5;
+}
+
+.headerContainer {
+  padding: 0 48px;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.user {
+  height: 128px;
+}
